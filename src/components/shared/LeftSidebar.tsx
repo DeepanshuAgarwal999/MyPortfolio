@@ -21,7 +21,7 @@ const LeftSidebar = () => {
               href={item.route}
               className={`${
                 isActive
-                  ? " text-white bg-[#818CF8] rounded-3xl"
+                  ? " text-white bg-blue-400 rounded-3xl"
                   : "text-gray-400 hover:text-white hover:bg-slate-900 rounded-3xl"
               } flex justify-start items-center gap-4 bg-transparent p-4`}
             >
