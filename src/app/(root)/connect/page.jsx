@@ -60,7 +60,7 @@ export default function ConnectPage() {
               <div className="sm:col-span-4">
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium leading-6 text-white"
+                  className="block text-lg font-medium leading-6 text-white"
                 >
                   Email address
                 </label>
@@ -103,7 +103,7 @@ export default function ConnectPage() {
             <div className="col-span-full">
               <label
                 htmlFor="cover-photo"
-                className="block text-sm font-medium leading-6 text-white"
+                className="block text-lg font-medium leading-6 text-white"
               >
                 Image
               </label>

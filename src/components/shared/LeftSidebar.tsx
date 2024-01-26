@@ -21,9 +21,10 @@ const LeftSidebar = () => {
               href={item.route}
               className={`${
                 isActive
-                  ? " text-white bg-[#7f8cff] rounded-3xl"
+                  ? " text-white rounded-3xl"
                   : "text-gray-400 hover:text-white hover:bg-slate-900 rounded-3xl"
               } flex justify-start items-center gap-4 bg-transparent p-4`}
+              style={{ backgroundColor: isActive ? "#818CF8" : "" }}
             >
               <Image
                 src={item.imgURL}
