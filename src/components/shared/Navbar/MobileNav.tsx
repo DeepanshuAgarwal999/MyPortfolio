@@ -27,9 +27,10 @@ const NavContent = () => {
               href={item.route}
               className={`${
                 isActive
-                  ? "bg-indigo-400 text-white rounded-3xl"
+                  ? " text-white rounded-3xl"
                   : "text-gray-400 hover:text-white hover:bg-slate-900 rounded-3xl"
               } flex justify-start items-center gap-4 bg-transparent p-4`}
+              style={{ backgroundColor: isActive ? "#818CF8" : "" }}
             >
               <Image
                 src={item.imgURL}
@@ -58,7 +59,7 @@ const MobileNav = () => {
             width={30}
             height={30}
             alt="Menu"
-            className="invert sm:hidden"
+            className="invert sm:hidden cursor-pointer"
           />
         </SheetTrigger>
         <SheetContent
