@@ -8,7 +8,7 @@ export default function Skill() {
         <h1 className="text-3xl text-white font-semibold ">Skills & Expertise</h1>
         <div className="-mx-6 mt-10 grid grid-cols-1 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
           {Skills.map((skill) => (
-            <SkillCard logo={skill.logo} title={skill.name}/>
+            <SkillCard logo={skill.logo} title={skill.name} key={skill._id}/>
           ))}
         </div>
       </div>

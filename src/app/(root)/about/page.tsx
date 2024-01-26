@@ -8,7 +8,7 @@ const AboutMe = () => {
           About Me
         </h1>
         <p className="mt-4 text-lg tracking-tight text-white/90 sm:text-xl">
-          Hello there! I'm Deepanshu Agarwal, a passionate and results-driven
+          Hello there! I&apos;m Deepanshu Agarwal, a passionate and results-driven
           Full Stack Web Developer with a keen interest in creating dynamic and
           user-friendly websites. I try to bring a unique blend of technical
           skills and creative thinking to every project I undertake.
@@ -36,7 +36,7 @@ const AboutMe = () => {
             On the <span className="font-semibold">back-end</span>, I leverage
             my skills in designing robust and scalable server-side architecture.
             My toolkit includes languages like Node.js, and Java, coupled with
-            frameworks such as Express.js,Nest js. I'm well-versed in working
+            frameworks such as Express.js,Nest js. I&apose;m well-versed in working
             with databases like MongoDB, MySQL, and PostgreSQL, ensuring
             seamless data management.
           </span>
@@ -54,21 +54,5 @@ const AboutMe = () => {
     </div>
   );
 };
-// About Me
-// Hello there! I'm [Your Name], a passionate and results-driven Full Stack Web Developer with a keen interest in creating dynamic and user-friendly websites. With a background in [mention your relevant educational or professional background], I bring a unique blend of technical skills and creative thinking to every project I undertake.
-
-// My Journey
-// My journey into the world of web development started [mention a brief story about how you got into web development]. Since then, I have been on an exciting adventure, constantly learning and adapting to the ever-evolving landscape of technology.
-
-// Technical Expertise
-// As a Full Stack Web Developer, I specialize in both front-end and back-end technologies. On the front-end, I'm proficient in crafting responsive and intuitive user interfaces using HTML, CSS, and JavaScript. I have hands-on experience with popular front-end libraries and frameworks such as React.js, Angular, or Vue.js.
-
-// On the back-end, I excel in designing robust and scalable server-side architecture. My toolkit includes languages like Node.js, Python, and Ruby, coupled with frameworks such as Express.js, Django, and Ruby on Rails. I'm no stranger to working with databases like MongoDB, MySQL, and PostgreSQL, ensuring seamless data management.
-
-// What Sets Me Apart
-// What sets me apart is not just my technical proficiency but also my commitment to delivering high-quality solutions. I believe in the power of collaboration and communication, working closely with clients to understand their unique requirements and translating them into elegant and efficient code.
-
-// Continuous Learning
-// The world of web development is ever-changing, and I thrive on staying ahead of the curve. I am dedicated to continuous learning, always exploring new technologies, tools, and best practices to enhance my skills and bring fresh perspectives to my projects.
 
 export default AboutMe;

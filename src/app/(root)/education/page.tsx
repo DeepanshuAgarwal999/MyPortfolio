@@ -19,7 +19,7 @@ const Education = () => {
             Year of Admission: 2021 Expected Graduation: 2025
           </p>
           <p className="text-lg mt-5 leading-8">
-            I am currently in the third year of my Bachelor's in Technology
+            I am currently in the third year of my Bachelor&apos;s in Technology
             (B.Tech) program at
             <span className="font-semibold border-b pb-1 ml-1">
               KIET Group of Institutions
