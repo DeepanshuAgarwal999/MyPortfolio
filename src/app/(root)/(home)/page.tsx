@@ -37,7 +37,7 @@ const HomePage = () => {
           {/* CTA section */}
           <div className="relative isolate -z-10 mt-14  overflow-y-hidden">
             <div className="mx-auto w-full">
-              <div className="mx-auto flex w-full justify-between flex-col gap-8 bg-white/5 px-4 py-14 ring-1 ring-white/10 sm:rounded-3xl sm:p-6 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20">
+              <div className="mx-auto flex w-full justify-between flex-col gap-8 bg-white/5 px-4 py-14 ring-1 ring-white/10 sm:rounded-3xl sm:p-6 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-12">
                 <div className="w-full flex-auto">
                   <h1 className="text-3xl font-semibold tracking-tight text-white ">Hi 👋 there,</h1>
                   <h2 className="text-3xl font-semibold tracking-tight text-white mt-4">
