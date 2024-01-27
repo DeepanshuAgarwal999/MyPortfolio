@@ -5,8 +5,8 @@ import React from "react";
 
 const Education = () => {
   return (
-    <section className="py-28 px-16 relative isolate">
-      <div className="bg-[#000000]/120 text-white/90 ring-1 ring-inset ring-gray-400/30 p-10">
+    <section className="py-28 px-6 sm:px-8 relative isolate">
+      <div className="bg-[#000000]/120 text-white/90 ring-1 ring-inset ring-gray-400/30 p-6 sm:p-10">
         <h1 className="text-indigo-600 text-3xl font-semibold">Education</h1>
         <div>
           <h2 className="font-semibold text-xl mt-4">

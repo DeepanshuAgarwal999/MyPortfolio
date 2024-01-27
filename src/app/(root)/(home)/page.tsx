@@ -28,7 +28,8 @@ const HomePage = () => {
           <div className="mx-auto max-w-2xl pt-24 text-center">
             <h2 className="text-3xl font-bold  text-white sm:text-5xl  tracking-wide">
               A <span className="text-indigo-400">full Stack Engineer</span>. I
-              Help startups<span className="text-indigo-500 ml-2">Launch</span> And
+              Help startups<span className="text-indigo-500 ml-2">Launch</span>{" "}
+              And
               <span className="text-[#53ec86] ml-2">Grow </span>Their Products
             </h2>
           </div>
@@ -38,7 +39,8 @@ const HomePage = () => {
             <div className="mx-auto w-full">
               <div className="mx-auto flex w-full justify-between flex-col gap-8 bg-white/5 px-4 py-14 ring-1 ring-white/10 sm:rounded-3xl sm:p-6 lg:mx-0 lg:max-w-none lg:flex-row lg:items-center lg:py-20">
                 <div className="w-full flex-auto">
-                  <h2 className="text-3xl font-semibold tracking-tight text-white">
+                  <h1 className="text-3xl font-semibold tracking-tight text-white ">Hi 👋 there,</h1>
+                  <h2 className="text-3xl font-semibold tracking-tight text-white mt-4">
                     <span className="text-indigo-500"> I am</span>&nbsp;
                     <TextAnimation />
                   </h2>
