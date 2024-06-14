@@ -1,8 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import { useForm, ValidationError } from "@formspree/react";
 
 export default function ConnectPage() {
+  const [state, handleSubmit] = useForm("xleqqpwb");
+
   const [values, setValue] = useState({
     name: "",
     email: "",
@@ -22,8 +25,27 @@ export default function ConnectPage() {
       });
     }
   };
+  const handleResponse = async (e) => {
+    e.preventDefault();
+    try {
+    await handleSubmit(e);
+     console.log(state);
+      if (state.succeeded) {
+        alert("Form submitted Successfully");
+        setHasSubmitted(true);
+      }
+    } catch (error) {
+      console.log(error);
+      console.log("Fd");
+    }
+  };
   return (
-    <form method="POST" onSubmit={(e) => e.preventDefault()}>
+    <form
+      action="https://formspree.io/f/xleqqpwb"
+      method="POST"
+      onSubmit={handleResponse}
+      // enctype="multipart/form-data"
+    >
       <div className="space-y-12 pt-36 px-10">
         <div className="border-b border-white/10 pb-12">
           <h2 className="font-semibold leading-7 py-4 text-blue-400 text-3xl">
@@ -100,7 +122,7 @@ export default function ConnectPage() {
               </p>
             </div>
 
-            <div className="col-span-full">
+            {/* <div className="col-span-full">
               <label
                 htmlFor="cover-photo"
                 className="block text-lg font-medium leading-6 text-white"
@@ -130,7 +152,7 @@ export default function ConnectPage() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -144,7 +166,7 @@ export default function ConnectPage() {
         </button>
         <button
           type="submit"
-          className="rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+          className="rounded-md active:scale-95 bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
         >
           Save
         </button>

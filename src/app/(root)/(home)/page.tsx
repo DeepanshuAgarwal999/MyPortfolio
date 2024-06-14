@@ -2,6 +2,7 @@ import BgEffect from "@/components/BgEffect";
 import React from "react";
 import TextAnimation from "./components/TextAnimation";
 import Image from "next/image";
+import profileImg from '../../../../public/assets/images/profile.jpeg'
 
 const HomePage = () => {
   return (
@@ -26,11 +27,11 @@ const HomePage = () => {
         {/* Header section */}
         <div className="px-6 pt-14 pb-6 lg:px-8">
           <div className="mx-auto max-w-2xl pt-24 text-center">
-            <h2 className="text-3xl font-bold  text-white sm:text-5xl  tracking-wide">
-              A <span className="text-indigo-400">full Stack Engineer</span>. I
-              Help startups<span className="text-indigo-500 ml-2">Launch</span>{" "}
-              And
-              <span className="text-[#53ec86] ml-2">Grow </span>Their Products
+            <h2 className="text-3xl font-bold text-indigo-400 sm:text-5xl  tracking-wide sm:!leading-[3.75rem]">
+              A Passionate Full Stack Developer
+              <span className="text-[#53ec86] ml-2">|</span>
+              <span className="text-indigo-300 ml-2">Bridging Code and Creativity</span>{" "}
+              {/* <span className="text-[#53ec86] ml-2">Grow </span>Their Products */}
             </h2>
           </div>
 
@@ -56,7 +57,7 @@ const HomePage = () => {
                 </div>
                 <Image
                   className="h-96 max-lg:hidden  w-full flex-none rounded-full object-cover shadow-xl lg:aspect-square  lg:max-w-sm"
-                  src="https://images.unsplash.com/photo-1519338381761-c7523edc1f46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                  src={profileImg}
                   alt=""
                   height={260}
                   width={260}
